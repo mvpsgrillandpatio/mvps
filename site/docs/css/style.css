@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
@@ -27,7 +26,7 @@ header a {
 }
 
 header a:hover {
-  color: orange;
+  color: #e3a344;
 }
 
 header nav ul {
@@ -36,8 +35,95 @@ header nav ul {
   padding: 0;
 }
 
-.title {
+hr {
+  opacity: 0.5;
+}
+
+.title, .container section h2 {
   font-family: 'Sedgwick Ave Display', cursive;
   font-size: 60px;
   margin: 0 10px;
+}
+
+.container p {
+  text-align: center;
+}
+
+.food, .drinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 96%;
+}
+
+section h3 {
+  margin-top: 5%;
+}
+
+section ul {
+  margin: 0 0 5% 0;
+  padding: 0;
+}
+
+section ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+section ul li p {
+  color: #444;
+  font-size: 16px;
+  margin: 0;
+}
+
+section ul li p strong {
+  color: #000;
+}
+
+.pic {
+  background-image: url(/img/mvp.jpg);
+  background-position: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    flex-direction: row;
+  }
+  body header {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 25rem;
+  }
+  section {
+    width: 90%;
+  }
+
+  section ul li p {
+    font-size: 18px;
+  }
+
+  section ul li p:first-child {
+    width: 80%;
+  }
+
+  .container p {
+    text-align: left;
+  }
+
+  .food, .drinks, .container {
+    margin-left: 25rem;
+    width: 1000px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
 }

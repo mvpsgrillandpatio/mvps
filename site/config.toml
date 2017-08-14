@@ -5,17 +5,17 @@ theme = "simple"
 publishDir = "docs"
 
 [[menu.main]]
-  name = "food"
+  name = "Food"
   weight = -70
   url = "/food"
 
 [[menu.main]]
-  name = "about"
+  name = "About"
   weight = -70
   url = "/about"
 
 [[menu.main]]
-  name = "drinks"
+  name = "Drinks"
   weight = -70
   url = "/drinks"
 

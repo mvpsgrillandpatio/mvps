@@ -9,7 +9,7 @@
         {{ if eq "categories" $taxonomyname }}
         {{ range $key, $value := $taxonomy }}
         {{ if ne $key "drinks" }}
-          <h2><em>{{ $key }}</em></h2>
+          <h2><em>{{ $key }}.</em></h2>
           <hr>
           {{ range $value.Pages.GroupByParam "type" }}
             <h3>{{ .Key }}</h3>
@@ -29,6 +29,7 @@
     {{ end }}
   </div>
 {{ else if eq .Section "drinks" }}
+<div class="{{ .Section }}">
   {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
     <section>
       {{ if eq "categories" $taxonomyname }}
@@ -37,7 +38,7 @@
         <h2 class="title"><em>{{ $key }}</em></h2>
         <hr>
           {{ range $value.Pages.GroupByParam "type" }}
-            <h2><em>{{ .Key }}</em></h2>
+            <h2><em>{{ .Key }}.</em></h2>
             <ul>
               {{ range .Pages }}
               <li>
@@ -53,5 +54,6 @@
     </section>
   {{ end }}
 {{ end }}
+</div>
 
 {{ partial "footer.html" . }}
