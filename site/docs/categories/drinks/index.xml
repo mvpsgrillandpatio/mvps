@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drinks on MVPS</title>
+    <link>/categories/drinks/</link>
+    <description>Recent content in Drinks on MVPS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 May 2017 13:03:58 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/drinks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iced tea</title>
+      <link>/drinks/tea/</link>
+      <pubDate>Wed, 17 May 2017 13:03:58 -0400</pubDate>
+      
+      <guid>/drinks/tea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soda</title>
+      <link>/drinks/soda/</link>
+      <pubDate>Wed, 17 May 2017 13:03:58 -0400</pubDate>
+      
+      <guid>/drinks/soda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
