@@ -1,9 +1,10 @@
 ---
+date: 2017-05-17T17:03:58.000Z
 title: Mark Sanchez Hot Dog
-date: 2017-05-17T13:03:58-04:00
 categories:
   - lunch
+description: 'Bacon, mayo, jalapenos, onions, tomato. Best Seller.'
 type: Hot Dogs
-description: Bacon, mayo, jalapenos, onions, tomato. Best Seller.
-price: 4.95
+price: '5'
 ---
+
