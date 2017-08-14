@@ -19,11 +19,6 @@ publishDir = "docs"
   weight = -70
   url = "/drinks"
 
-[[menu.main]]
-  name = "contact"
-  weight = -60
-  url = "/contact"
-
 [params]
   description = "MVPS, gril and patio"
   author = "github.com/colorlessenergy"
