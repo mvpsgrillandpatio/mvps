@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
-
-html {
-  height: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   box-sizing: border-box;
   display: flex;
-  height: 100%;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -16,13 +15,19 @@ header {
   background-color: #222;
   display: flex;
   flex-direction: column;
+  height: 400px;
   justify-content: center;
-  width: 25%;
+  width: 100%;
 }
 
 header a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+  transition: color ease 0.5s;
+}
+
+header a:hover {
+  color: orange;
 }
 
 header nav ul {
@@ -33,5 +38,6 @@ header nav ul {
 
 .title {
   font-family: 'Sedgwick Ave Display', cursive;
-  font-size: 50px;
+  font-size: 60px;
+  margin: 0 10px;
 }
