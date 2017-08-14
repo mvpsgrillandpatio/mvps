@@ -4,6 +4,6 @@ categories:
  - drinks
 type: beverages
 title: soda
-description: sprite...
-price: 3
+description: Coca cola, diet coca cola, sprite, dr. pepper, root beer, arnold palmer, lemonade
+price: 1.85
 ---
