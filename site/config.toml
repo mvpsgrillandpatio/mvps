@@ -1,3 +1,29 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "MVPS"
+theme = "simple"
+publishDir = "docs"
+
+[[menu.main]]
+  name = "food"
+  weight = -70
+  url = "/food"
+
+[[menu.main]]
+  name = "about"
+  weight = -70
+  url = "/about"
+
+[[menu.main]]
+  name = "drinks"
+  weight = -70
+  url = "/drinks"
+
+[[menu.main]]
+  name = "contact"
+  weight = -60
+  url = "/contact"
+
+[params]
+  description = "MVPS, gril and patio"
+  author = "github.com/colorlessenergy"

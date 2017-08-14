@@ -1,0 +1,57 @@
+{{ partial "header.html" . }}
+
+
+{{ if eq .Section "food" }}
+  <div class="{{ .Section }}">
+    <h2 class="title">{{ .Section }}</h2>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <section>
+        {{ if eq "categories" $taxonomyname }}
+        {{ range $key, $value := $taxonomy }}
+        {{ if ne $key "drinks" }}
+          <h2><em>{{ $key }}</em></h2>
+          <hr>
+          {{ range $value.Pages.GroupByParam "type" }}
+            <h3>{{ .Key }}</h3>
+            <ul>
+              {{ range .Pages }}
+              <li>
+                <p><strong>{{ .Title }}</strong> {{ .Params.description }}</p>
+                <p>{{ .Params.price }}</p>
+              </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
+{{ else if eq .Section "drinks" }}
+  {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    <section>
+      {{ if eq "categories" $taxonomyname }}
+      {{ range $key, $value := $taxonomy }}
+        {{ if eq $key "drinks" }}
+        <h2 class="title"><em>{{ $key }}</em></h2>
+        <hr>
+          {{ range $value.Pages.GroupByParam "type" }}
+            <h2><em>{{ .Key }}</em></h2>
+            <ul>
+              {{ range .Pages }}
+              <li>
+                <p><strong>{{ .Title }}: </strong>{{ .Params.description }}</p>
+                <p>{{ .Params.price }}</p>
+              </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}

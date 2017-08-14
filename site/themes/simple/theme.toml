@@ -1,0 +1,10 @@
+name = "Simple"
+license = "MIT"
+licenselink = "https://github.com/colorlessenergy/resturant/master/LICENSE.md"
+description = "MVPS, grill and patio"
+homepage = "https://github.com/colorlessenergy/resturant/"
+min_version = 0.19
+
+[author]
+  name = "colorlessenergy"
+  homepage = "https://github.com/colorlessenergy"
