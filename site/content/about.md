@@ -6,9 +6,17 @@ draft: false
 
 ## about
 
-something about mvps goes here
+google maps
 
-mvps is a nice place to eat
+<div>
+<div id="map_canvas">
+
+</div>
+
+<div id="map_canvas2">
+
+</div>
+</div>
 
 
 ## MR. MVPS
