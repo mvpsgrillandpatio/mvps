@@ -10,10 +10,12 @@ google maps
 
 <div>
 <div id="map_canvas">
+ <p> location 1 </p>
 
 </div>
 
 <div id="map_canvas2">
+  <p> location 2 </p>
 
 </div>
 </div>
