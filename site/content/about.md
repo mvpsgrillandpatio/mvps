@@ -6,19 +6,21 @@ draft: false
 
 ## about
 
-google maps
-
 <div>
+<div>
+<p> 5484 E Stearns St Ste 2 Long Beach, CA 90815 </p>
 <div id="map_canvas">
- <p> location 1 </p>
 
 </div>
+</div>
+<div>
+<p> 2742 E 4th St Long Beach, CA 90814</p>
 
 <div id="map_canvas2">
-  <p> location 2 </p>
 
 </div>
 </div>
+</div>
 
 
-## MR. MVPS
+## MVPS

@@ -84,6 +84,10 @@ section ul li p {
   margin: 0;
 }
 
+section ul li p:first-child {
+  width: 90%;
+}
+
 section ul li p strong {
   color: #000;
 }
@@ -111,19 +115,29 @@ header .location {
   width: 95%;
 }
 
+header .location .location-item {
+  margin-bottom: 10px;
+}
+
+
 .container section {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #map_canvas, #map_canvas2 {
   height: 300px;
-  width: 300px;
+  width: 100%;
   margin: 20px 0;
 }
 
 .container section div {
   align-self: center;
+}
+
+.container section div div {
+  flex-direction: column;
 }
 
 .mvp-number-item {

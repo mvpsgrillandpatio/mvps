@@ -2,7 +2,7 @@ var map, map2;
 
 function initialize(condition) {
   map = new google.maps.Map(document.getElementById("map_canvas"), {
-    zoom: 20,
+    zoom: 15,
     center: {lat: 33.795953, lng: -118.126025}
   });
 
@@ -12,7 +12,7 @@ function initialize(condition) {
   });
 
 map2 = new google.maps.Map(document.getElementById("map_canvas2"), {
-  zoom: 20,
+  zoom: 15,
   center: {lat: 33.771660, lng: -118.159220}
   });
 
