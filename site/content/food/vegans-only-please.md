@@ -5,7 +5,8 @@ categories:
   - dinner
 description: every thing
 type: raw bar
-price: free
+price: '0'
 ---
+
 
 
