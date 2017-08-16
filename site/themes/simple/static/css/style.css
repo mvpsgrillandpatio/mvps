@@ -126,6 +126,15 @@ header .location .location-item {
   width: 100%;
 }
 
+
+#map_canvas {
+  background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=33.795953,-118.126025&zoom=17&size=400x400&&markers=color:red%7Clabel:MVP%7C33.795953,-118.126025&key=AIzaSyB6VPauv7yBhr3ai6Zp2nGZg_j0mIAsg4w');
+}
+
+#map_canvas2 {
+  background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=33.771660,-118.159220&zoom=17&size=400x400&&markers=color:red%7Clabel:MVP%7C33.771660,-118.159220&key=AIzaSyB6VPauv7yBhr3ai6Zp2nGZg_j0mIAsg4w');
+}
+
 #map_canvas, #map_canvas2 {
   height: 300px;
   width: 100%;
