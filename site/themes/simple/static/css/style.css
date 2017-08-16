@@ -81,11 +81,13 @@ section ul li {
 section ul li p {
   color: #444;
   font-size: 16px;
+  line-height: 1.5;
   margin: 0;
 }
 
 section ul li p:first-child {
-  width: 90%;
+  margin-left: 10px;
+  width: 80%;
 }
 
 section ul li p strong {
@@ -96,6 +98,10 @@ section ul li p strong {
   background-image: url(/img/mvp.jpg);
   background-position: center;
   height: 100vh;
+}
+
+header nav ul li {
+  margin-bottom: 10px;
 }
 
 header div, header .location {
@@ -126,18 +132,15 @@ header .location .location-item {
   width: 100%;
 }
 
-#map_canvas {
-  background-image: url('../img/mvps1.png');
-}
-
-#map_canvas2 {
-  background-image: url('../img/mvps2.png');
-}
 
 #map_canvas, #map_canvas2 {
-  height: 300px;
   width: 100%;
   margin: 20px 0;
+}
+
+#map_canvas img, #map_canvas2 img {
+  display: block;
+  width: 100%;
 }
 
 .container section div {
@@ -190,10 +193,24 @@ header .location .location-item {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1240px) {
   .container section div {
     align-self: auto;
     display: flex;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    justify-content: space-between;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container section {
+    width: 95%;
   }
 }

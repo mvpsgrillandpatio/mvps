@@ -4,6 +4,6 @@ categories:
   - lunch
 type: French Fries
 title: Chili Cheese Fries
-description: full order
-price:  5.95
+description: half order 
+price: 4.95
 ---
