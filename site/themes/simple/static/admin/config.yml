@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: colorlessenergy/restaurant-mvp
+  repo: mvpsgrillandpatio/mvps
   branch: master
 
 media_folder: "src/img/" # Folder where user uploaded files should go
