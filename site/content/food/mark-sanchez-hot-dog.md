@@ -5,7 +5,8 @@ categories:
   - lunch
 description: 'Bacon, mayo, jalapenos, onions, tomato. Best Seller.'
 type: Hot Dogs
-price: '4.85'
+price: '5'
 ---
+
 
 
