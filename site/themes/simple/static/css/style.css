@@ -126,6 +126,14 @@ header .location .location-item {
   width: 100%;
 }
 
+#map_canvas {
+  background-image: url('../img/mvps1.png');
+}
+
+#map_canvas2 {
+  background-image: url('../img/mvps2.png');
+}
+
 #map_canvas, #map_canvas2 {
   height: 300px;
   width: 100%;
